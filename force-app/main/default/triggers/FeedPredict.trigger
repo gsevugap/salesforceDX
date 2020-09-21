@@ -11,7 +11,7 @@ trigger FeedPredict on FeedItem (after insert) {
             //call vision predict
         FSLVisionController.getCallVisionContent(parentId,relatedId);
           
-           
+         // tst  
 
         }
     }
